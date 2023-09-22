@@ -1,0 +1,95 @@
+/* Angi fontstørrelse for alle elementer til 1,5 % av visningsvinduets bredde */
+* {
+    font-size: 1.5vw;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style:italic;
+}
+
+/* Definer stilen for hele nettsidens kropp (body) */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    height: 100vh;
+    background-image: url(Naturbilde1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* Stil for et element med ID-en "velkommen" */
+
+
+/* Stil for elementer med klassene "quiz-container1" og "quiz-container2" */
+.quiz-container1, .quiz-container2, .quiz-container3{
+    background-color:rgb(255, 255, 255);
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 60%;
+    margin: auto;
+}
+
+/* Stil for et element med ID-en "spml" */
+#spml {
+    display: inline;
+    max-height: 1%;
+    min-height: 1%;
+}
+
+/* Stil for et element med ID-en "boks1" */
+#boks1 {
+    max-height: 8em;
+    min-height: 8em;
+}
+
+/* Stil for alle <p>-elementer på siden */
+p {
+    padding: 5%;
+}
+
+/* Stil for elementer med klassen "valg" */
+.valg {
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+    padding: 2%;
+}
+
+/* Stil for alle <button>-elementer på siden */
+button {
+    padding: 3% 5%;
+    background-color: white;
+    color: black;
+    border-radius: 1em;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+/* Endre knappens utseende når du svever over den */
+button:hover {
+    background-color: white;
+    color: black;
+    box-shadow: inset 8px 8px 24px #c5c5c5, inset -6px -6px 18px #ffffff;
+}
+
+/* Stil for alle <img>-elementer på siden */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+/*Overskrif*/
+h1{
+    font-size: 200%;
+    font-weight: 600;
+}
+
+#storboks2{
+    display: none;
+}
