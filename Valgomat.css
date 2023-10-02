@@ -98,3 +98,10 @@ a{
     text-decoration: none;
     color: black;
 }
+li{
+    text-align: left;
+}
+
+.omOsstekst{
+    text-align: left;
+}
