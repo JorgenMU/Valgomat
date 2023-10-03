@@ -42,6 +42,7 @@ const nøytralButton = document.getElementById("nøytral");
 
 const startpånyttButton = document.getElementById("startpånytt");
 const gatilbakeButton = document.getElementById("gatilbake");
+const tilbakeButton = document.getElementById("tilbake");
 
 const progressbar = document.getElementById("progressbar");
 const startbutton = document.getElementById("start");
@@ -52,6 +53,7 @@ const storboks1 = document.getElementById("storboks1");
 function skjulTilbake() {
   gatilbakeButton.style.display = "none";
   startpånyttButton.style.display = "none";
+  tilbakeButton.style.display = "none";
 }
 skjulTilbake();
 
@@ -104,6 +106,7 @@ function nextQuestion() {
   }
   gjommKnapperStart(gatilbakeButton);
   gjommKnapperStart(startpånyttButton);
+  gjommKnapperStart(tilbakeButton);
 }
 
 // Funksjon for å starte på nytt
