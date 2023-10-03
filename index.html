@@ -1,49 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="Valgomat.css" />
-  </head>
-  <body>
-    <div id="logo"><img src="SVLOGO.png" /></div>
-
-    <div id="storboks1">
-      <!--Boks med headline og start knapp-->
-      <div class="quiz-container3">
-        <div id="velkommen">
-          <h1>Hei og velkommen til valgomaten til Jørgen og Dawid.</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valgomat</title>
+    <link rel="stylesheet" href="Valgomat.css">
+    
+</head>
+<body>
+    <div id="logo"><img src="SVLOGO.png"></div>
+    
+        <div id="storboks1"><!--Boks med headline og start knapp-->
+            <div class="quiz-container3">
+                <div id="velkommen"><h1>Hei og velkommen til valgomaten til Jørgen og Dawid.</h1></div>
+                <button id="start">Start valgomaten</button>
+            </div>
         </div>
-        <button id="start">Start valgomaten</button>
-      </div>
-    </div>
-    <div id="storboks2">
-      <div id="boks1" class="quiz-container1">
-        <!--boks med progressbar og spørsmålene-->
-        <progress id="progressbar" value="" max="25"></progress>
-        <div id="spml"><p></p></div>
-      </div>
-      <div><h2></h2></div>
-      <!--mellomrom-->
-      <div class="quiz-container2">
-        <!--Boks med svar knappene-->
-        <div class="valg">
-          <button id="enig">Enig</button>
-          <button id="litenig">Litt Enig</button>
-          <button id="nøytral">Nøytral</button>
-          <button id="lituenig">Litt Uenig</button>
-          <button id="uenig">Uenig</button>
+        <div id = "storboks2">
+            <div id="boks1" class="quiz-container1"><!--boks med progressbar og spørsmålene-->
+                <progress id="progressbar" value="" max="25"> </progress>
+                <div id="spml"><p></p></div>
+            </div>
+            <div><h2></h2></div><!--mellomrom--> 
+            <div class="quiz-container2"><!--Boks med svar knappene-->
+                <div class="valg">
+                    <button id="enig">Enig</button>
+                    <button id="litenig">Litt Enig</button>
+                    <button id="nøytral">Nøytral</button>
+                    <button id="lituenig">Litt Uenig</button>
+                    <button id="uenig">Uenig</button>
+                </div>
+                <div class="valg"><!--Boks med gå tilbake knapp og Start på nytt knapp-->
+                    <button class="knapp2" id="gatilbake">GÅ TILBAKE</button>
+                    <button class="kanpp2" id="startpånytt">START PÅ NYTT</button>
+                </div>
+            </div>
+            <div><h3></h3></div><!--mellomrom--> 
         </div>
-        <div class="valg">
-          <!--Boks med gå tilbake knapp og Start på nytt knapp-->
-          <button class="knapp2" id="gatilbake">GÅ TILBAKE</button>
-          <button class="kanpp2" id="startpånytt">START PÅ NYTT</button>
-        </div>
-      </div>
-      <div><h3></h3></div>
-      <!--mellomrom-->
-    </div>
     <script src="Valgomat.js"></script>
   </body>
 </html>
